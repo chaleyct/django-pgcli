@@ -15,13 +15,13 @@ with open('HISTORY.md') as history_file:
     history = history_file.read()
 
 requirements = [
-    'psycopg2',
+    'psycopg2-binary',
     'pgcli',
     'Django>=2.2.13',
 ]
 
 test_requirements = [
-    'psycopg2',
+    'psycopg2-binary',
     'pgcli',
     'Django>=2.2.13',
 ]
